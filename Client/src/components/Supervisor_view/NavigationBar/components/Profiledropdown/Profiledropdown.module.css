@@ -1,0 +1,70 @@
+.profile_dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.profile_icon {
+  cursor: pointer;
+}
+
+.dropdown_content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: var(--appcolor);
+  width: 13.5rem;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  /* z-index: 1; */
+  color: var(--white);
+  border-radius: 3px;
+  /* Position at 50% from the left */
+  top: 52px; /* Position at 50% from the top */
+
+  /* Adjustments for centering */
+  transform: translate(-73.5%, 0%);
+  transition: 0.5s ease;
+}
+
+.dropdown_content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+.dropdown_content ul li {
+  text-decoration: none;
+  cursor: pointer;
+  padding: 6px;
+}
+
+.dropdown_content ul li:hover {
+  background-color: #032f61;
+}
+
+.profile_dropdown:hover .dropdown_content {
+  display: block;
+}
+.userdetails {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.namenemail {
+  display: flex;
+  flex-direction: column;
+  line-height: 16.5px;
+}
+.name {
+  font-size: 15px;
+}
+.email {
+  font-size: 13px;
+  color: var(--lightgray);
+}
+.listacc {
+  display: flex;
+  gap: 25px;
+  font-size: 15px;
+  margin-left: 10px;
+}

@@ -1,0 +1,101 @@
+.Signupform {
+  position: absolute;
+  height: 100vh;
+  left: 50%;
+  transform: translate(-50%, 0);
+  overflow: hidden;
+  padding: 1rem;
+  background-color: #001f2bea;
+  width: 40vw;
+  border-radius: 4%;
+}
+.signUpInputs {
+  padding: 10px 15px;
+  font-size: large;
+  color: black;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgb(231, 225, 225);
+}
+.submit {
+  width: 100%;
+  text-align: center;
+}
+
+.submitbtn {
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #0b3f53;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 300;
+  font-size: large;
+  letter-spacing: 2px;
+  border: 1px solid rgba(128, 128, 128, 0.459);
+}
+.submitbtn:hover {
+  background-color: #032e3f;
+  transition-duration: 0.5s;
+}
+.Signupform_quit {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.signUpFormForm {
+  padding: 10px 30px;
+  margin-top: 15px;
+}
+.inputbox {
+  display: flex;
+  flex-direction: column;
+  /* text-align: center; */
+
+  align-items: center;
+}
+
+.inputs::placeholder {
+  color: rgb(170, 163, 163);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.label {
+  text-align: center;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+
+.cross {
+  background-color: transparent;
+  border: none;
+  font-size: larger;
+}
+
+
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.errorsection {
+  color: rgb(255, 19, 19);
+  /* text-align: center; */
+  font-size: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* font-weight: bold; */
+  align-items: flex-start;
+  visibility: hidden;
+  max-width: 500px;
+  padding: 3px;
+}
+
+input:invalid[focused="true"] ~ p {
+  visibility: visible;
+}

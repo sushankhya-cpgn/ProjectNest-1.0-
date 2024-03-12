@@ -1,0 +1,66 @@
+.container {
+  color: black;
+}
+
+nav {
+  padding: 5px;
+  display: flex;
+  background-color: #131a22;
+  /* box-shadow: -16px 4px 4px #e5e5e5; */
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+  border-bottom: 0.2px solid rgb(116, 107, 107);
+}
+
+nav li {
+  list-style: none;
+  height: 90%;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.adminlogo {
+  margin-left: 30px;
+}
+
+.search_section {
+  width: 45%;
+  display: flex;
+  justify-content: flex-end;
+  height: 90%;
+}
+.search {
+  width: 50%;
+  height: 90%;
+}
+.searchform {
+  height: 100%;
+}
+
+input[type="search"] {
+  height: 2rem;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgb(219, 215, 206);
+}
+.notifications {
+  color: var(--white);
+}
+
+.accountsection {
+  margin-right: 10px;
+  display: flex;
+  align-items: flex-end;
+  color: rgb(192, 192, 192);
+  padding-right: 10px;
+}
+
+img {
+  border-radius: 50%;
+  height: 45px;
+}
+
+.profilephoto {
+  border-radius: 50%;
+}

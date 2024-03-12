@@ -1,0 +1,41 @@
+.membersdisplay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Table.css */
+
+.table_cont {
+  width: 55rem;
+  overflow-x: auto;
+  height: 22, 5rem;
+  background-color: #032f61;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+.user_table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user_table th,
+.user_table td {
+  border: 1px solid #5e6872;
+  padding: 8px;
+  text-align: left;
+  color: var(--lightgray);
+}
+
+.user_table th {
+  background-color: #032f61;
+  font-weight: bold;
+  color: var(--white);
+}
+
+.profile_pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}

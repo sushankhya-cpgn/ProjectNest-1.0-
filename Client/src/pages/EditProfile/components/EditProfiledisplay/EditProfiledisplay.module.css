@@ -1,0 +1,62 @@
+.edit_profile_container {
+  width: 55rem;
+  height: 26.5rem;
+  display: flex;
+  margin-top: 25px;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #032f61;
+  color: var(--white);
+  border-radius: 5px;
+  margin-left: 3.5rem;
+}
+.left_section {
+  width: 45%;
+  margin-right: 20px;
+  padding-right: 20px; /* Added padding to create space between contents */
+  border-right: 1px solid #ccc; /* Added border to separate sections */
+}
+
+.right_section {
+  width: 55%;
+}
+
+.left_section h2 {
+  margin-bottom: 20px;
+}
+
+input[type="file"] {
+  margin-bottom: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  margin-bottom: 20px;
+}
+
+input,
+textarea {
+  width: 100%; /* Adjusted width for better responsiveness */
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

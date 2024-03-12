@@ -1,0 +1,80 @@
+.edit_profile_form_container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #131a22;
+}
+.form1 {
+  display: flex;
+  flex-direction: column;
+  width: 35rem;
+  padding: 4px;
+  margin-bottom: 2rem;
+  height: 30rem;
+}
+.form2 {
+  display: flex;
+  flex-direction: column;
+  width: 35rem;
+  padding: 4px;
+  height: 10rem;
+}
+.form3 {
+  display: flex;
+  flex-direction: column;
+  height: 10rem;
+}
+.label {
+  font-size: 1.5rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-top: 15px;
+  color: white;
+}
+.input {
+  height: 2rem;
+}
+
+.submitbtn {
+  width: 11rem;
+  padding: 9px;
+  background-color: #007478;
+  color: white;
+  margin-top: 2rem;
+  border-radius: 17px 18px;
+  border: none;
+  height: 2.5rem;
+}
+.submit {
+  display: flex;
+  justify-content: center;
+  height: 4rem;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: white;
+}
+.subheading {
+  margin-top: 4px;
+  /* color: rgb(255, 60, 0); */
+  color: #fffeff;
+  text-align: center;
+}
+.addedmembers {
+  list-style: none;
+  color: white;
+}
+.removeTeamMembers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.labelRemove {
+  color: #ff4444;
+}

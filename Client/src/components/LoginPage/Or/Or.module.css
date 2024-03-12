@@ -1,0 +1,16 @@
+.or {
+  margin: 0px 10px 0 10px;
+  color: white;
+}
+.underline {
+  width: 40%;
+  background-color: rgb(112, 112, 111);
+  height: 1px;
+}
+.optiontext {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 18rem;
+}

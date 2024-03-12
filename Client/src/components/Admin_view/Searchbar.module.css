@@ -1,0 +1,25 @@
+.search {
+  width: 50%;
+  height: 90%;
+}
+.searchform {
+  height: 100%;
+}
+
+.datarow {
+  padding: 2px;
+}
+.dropdown {
+  background-color: white;
+  color: rgb(2, 2, 3);
+  border-radius: 3px;
+  position: absolute;
+  width: 18.5rem;
+  margin-left: 7px;
+  border-radius: 1px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+.hr {
+  border: 0.01px solid rgba(8, 0, 0, 0.493);
+}

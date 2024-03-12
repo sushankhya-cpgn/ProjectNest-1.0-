@@ -1,0 +1,29 @@
+.accountsection {
+  margin-right: 10px;
+  display: flex;
+  align-items: flex-end;
+  color: rgb(192, 192, 192);
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-right: 20px;
+}
+
+.accountsection a{
+  text-decoration: none;
+  color: white;
+  background-color: rgb(54, 54, 54);
+  padding: 7px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+.accountsection a:hover{
+  background-color: rgb(36, 36, 36);
+}
+.profilephoto {
+  border-radius: 50%;
+  border-radius: 50%;
+  height: 45px;
+}

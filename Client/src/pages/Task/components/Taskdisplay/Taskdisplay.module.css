@@ -1,0 +1,86 @@
+.taskdisplay {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+.date_display2 {
+  font-size: 18px;
+  text-align: left;
+  color: var(--white);
+  margin-top: 10px;
+  /* Add other styles for date display */
+}
+/* TaskUI.module.css */
+
+.task_container {
+  width: 53rem;
+  overflow-x: auto;
+  height: 21rem;
+  background-color: #032f61;
+  margin-top: 18px;
+  color: white;
+  border-radius: 5px;
+}
+
+.navigation_task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  gap: 40rem;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.taskTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.taskTable th,
+.taskTable td {
+  border: 1px solid #5e6872;
+  padding: 8px;
+  text-align: start;
+  color: var(--lightgray);
+}
+
+.taskTable th:first-child {
+  text-align: left;
+}
+.taskTable th {
+  background-color: #032f61;
+  font-weight: bold;
+  color: var(--white);
+}
+
+textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.submitButton {
+  padding: 9px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.tasknewdate h2 {
+  text-align: center;
+  color: var(--white);
+  margin-top: 12px;
+}

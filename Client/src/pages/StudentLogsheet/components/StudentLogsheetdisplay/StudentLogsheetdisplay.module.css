@@ -1,0 +1,81 @@
+/* Logsheetdisplay.module.css */
+.logsheetdisplay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logsheetdate h2 {
+  text-align: center;
+  color: var(--white);
+  margin-top: 12px;
+}
+
+.logsheet_container {
+  width: 56rem;
+  overflow-x: auto;
+  height: 22.5rem;
+  background-color: #032f61;
+  margin-top: 18px;
+  border-radius: 5px;
+}
+
+.navigationnew {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  gap: 40rem;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.logTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.logTable th,
+.logTable td {
+  border: 1px solid #5e6872;
+  padding: 8px;
+  text-align: flex-start;
+  color: var(--lightgray);
+}
+
+.logTable th {
+  background-color: #032f61;
+  font-weight: bold;
+  color: var(--white);
+}
+
+.logTable th:first-child {
+  text-align: left;
+}
+
+/* New styles for the grades dropdown */
+.logTable select {
+  width: 80px; /* Adjust as needed */
+  padding: 6px;
+  border-radius: 4px;
+  border: 1px solid #5e6872;
+  background-color: #fff;
+  color: #032f61;
+  font-size: 14px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.logTable select:focus {
+  outline: none;
+  border-color: #007bff;
+}

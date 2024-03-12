@@ -1,0 +1,59 @@
+.sidebar {
+  background-color: var(--appcolor);
+  width: 15.5rem;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-right: 0.5px solid rgb(116, 107, 107);
+  text-decoration: none;
+  height: 90vh;
+}
+.sidebaritem a,
+.hidesidebaritems a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  gap: 25px;
+}
+.sidebaritem {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  cursor: pointer;
+  border: 5px solid transparent;
+  color: var(--white);
+}
+
+.sidebaritem:hover {
+  background-color: rgba(33, 34, 34, 0.658);
+  border-radius: 5%;
+}
+.hidesidebar {
+  background-color: var(--appcolor);
+  width: 5rem;
+  padding: 10px;
+  text-align: justify;
+  border-right: 1px solid grey;
+  height: 90vh;
+}
+.hidesidebaritems {
+  margin-bottom: 1rem;
+  cursor: pointer;
+  border: 5px solid transparent;
+}
+
+/* .icons {
+  font-size: large;
+} */
+/* #sidebar_toggler {
+  margin-top: 15em;
+} */
+.sidebarOption {
+  color: white; /* Set the default color for links to white */
+  text-decoration: none; /* Remove underline from links */
+}
+.sidebarOption:visited {
+  text-decoration: none;
+  color: white;
+}

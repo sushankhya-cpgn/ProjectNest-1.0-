@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.loginpage {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  background-color: #02041e;
+  background-color: black;
+  background-color: #091b2f;
+}
+.blur {
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(245, 245, 245, 0.61);
+}

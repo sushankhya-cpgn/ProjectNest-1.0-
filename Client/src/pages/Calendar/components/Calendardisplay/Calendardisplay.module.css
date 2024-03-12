@@ -1,0 +1,102 @@
+.calendarContainer {
+  display: flex;
+  justify-content: center;
+  width: 55rem; /* Adjust as needed */
+  margin: 0 auto;
+  margin-top: 40px;
+  border-radius: 5px;
+  height: 25rem;
+  align-items: center;
+  color: var(--white);
+  gap: 5rem;
+  background-color: #032f61;
+}
+
+.calendarWrapper {
+}
+
+.calendarHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.calendarHeader h1 {
+  font-weight: 600;
+  color: var(--white);
+}
+
+.calendarControls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  color: var(--white);
+}
+
+.calendarControls h1 {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: var(--white);
+}
+
+.calendarControls h1:hover {
+  transform: scale(1.05);
+}
+
+.calendarGrid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.calendarDay {
+  text-align: center;
+  height: 2rem;
+  width: 2rem;
+  display: grid;
+  place-content: center;
+  color: #888;
+  user-select: none;
+}
+
+.calendarDate {
+  padding: 0.5rem;
+  text-align: center;
+  height: 2rem;
+  display: grid;
+  place-content: center;
+  font-size: 0.875rem;
+  border-top: 1px solid #ccc;
+}
+
+.today {
+  background-color: red;
+  color: white;
+}
+
+.selectedDate {
+  background-color: black;
+  color: white;
+}
+
+.selectedDate:hover {
+  background-color: black;
+  color: white;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.scheduleWrapper {
+  padding: 0 0.5rem;
+  width: 35%;
+  height: 80%;
+  align-items: center;
+  justify-content: center;
+}
+
+.scheduleHeader {
+  font-weight: 600;
+}
+
+.scheduleContent {
+  color: #888;
+}

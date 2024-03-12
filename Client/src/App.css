@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+}
+:root {
+  --appcolor: #131a22;
+  --appcolorLight: #0d1218;
+  --gray: #2e2e2e;
+  --white: #fff;
+  --lightgray: #ddd;
+  height: 100vh;
+  width: 100vw;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+container {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+@media (max-aspect-ratio: 7/10) {
+  .JoinPage {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start !important;
+  }
+  .JoinContainer {
+    margin-top: 30vw !important;
+    width: 100% !important;
+  }
+
+  .JoinContainer > img {
+    width: 30vw !important;
+  }
+  .JoinContainer > h1 {
+    font-size: 6vw !important;
+    width: 65vw !important;
+    border-bottom: 0.6vw solid white !important;
+    padding: 3vw !important;
+  }
+
+  .joinInput {
+    width: 65vw !important;
+    padding: 4vw !important;
+
+    font-size: 5vw !important;
+    margin: 5vw !important;
+  }
+  .joinbtn {
+    width: 65vw !important;
+    padding: 4vw !important;
+
+    font-size: 5vw !important;
+  }
+
+  .chatContainer {
+    background-color: white;
+    height: 100% !important;
+    width: 100% !important;
+  }
+  .header {
+    height: 10% !important;
+  }
+  .header > h2 {
+    margin: 8vw !important;
+    font-size: 5vw !important;
+  }
+
+  .header img {
+    margin: 6vw !important;
+    transform: scale(2) !important;
+  }
+  .header > img:hover {
+    transform: scale(3.2) !important;
+  }
+  .chatBox {
+    height: 80% !important;
+  }
+
+  .inputBox {
+    height: 10% !important;
+  }
+  .chatInput {
+    padding: 4vw !important;
+    font-size: 4vw !important;
+  }
+  .messageBox {
+    padding: 3vw !important;
+    margin: 3vw !important;
+    border-radius: 1.5vw !important;
+    font-size: 3.7vw !important;
+  }
+}

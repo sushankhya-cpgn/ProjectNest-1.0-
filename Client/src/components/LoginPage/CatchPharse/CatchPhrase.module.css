@@ -1,0 +1,24 @@
+.join_message {
+  height: 3rem;
+  margin-top: 2rem;
+}
+.text {
+  color: rgb(231, 233, 234);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.subheading {
+  font-size: 45px;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.span {
+  font-size: 35px;
+  width: 100%;
+  height: 9rem;
+  margin-right: 13px;
+  color: rgb(231, 233, 234);
+  margin-top: 3rem;
+  font-weight: 800;
+}
